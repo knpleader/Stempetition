@@ -1,0 +1,22 @@
+{
+  "name": "revo-hospital-website-html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabinmagar/revo-hospital-website-html-css-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabinmagar/revo-hospital-website-html-css-js/issues"
+  },
+  "homepage": "https://github.com/prabinmagar/revo-hospital-website-html-css-js#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

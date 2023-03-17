@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor</title>
+    <link rel="stylesheet" href="css/doc.css">
+    <script src="https://kit.fontawesome.com/4da7e2981c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/4da7e2981c.css" crossorigin="anonymous">    
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logotrangbs.png" alt="site logo">
+                </a> 
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-house"></i>Trang Chủ</li>
+                <li class="active"><i class="fa-solid fa-user-doctor"></i>Bác Sĩ</li>
+                <li ><i class="fas fa-calendar-plus"></i>Đặt Lịch</li>
+                <li><i class="fa-solid fa-phone"></i>Liên Hệ</li>
+            </ul>
+             <ul>
+                <li><i class="fa-regular fa-user"></i>Tài Khoản</li>
+                <li><i class="fa-solid fa-gear"></i>Cài Đặt</li>
+            </ul>
+        </div>
+        <div class="center">
+            <div class="search">
+                <div class="form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search...">
+                    <button>Tìm Kiếm</button>
+                </div>
+            </div>
+
+            <h2>Đặt Hẹn</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/bac-si-wade.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Bác sĩ Wade Brackenbury</div>
+                        <div class="des">
+                            Bác sĩ Wade Brackenbury là một tấm gương điển hình cho sức khỏe mẫu mực và là 
+                            nguồn cảm hứng cho đội ngũ nhân viên
+                        </div>
+                        <div class="price">$20.03</div>
+                        <input type="time" class="count" min="1" max="17" value="1">
+                        <button class="add">Đặt Lịch</button>
+                        <button class="remove" onclick="Remove(1)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="2">
+                    <div class="img">
+                        <img src="img/bac-si-hoisang-goong.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Bác sĩ Hoisang Gong</div>
+                        <div class="des">
+                            Đối với bác sĩ Hoisang, chăm sóc sức khỏe bệnh nhân là nhiệm vụ lớn nhất 
+                            mà ông theo đuổi và luôn phấn đấu để ngày càng hoàn thiện bản thân nhằm 
+                            đảm bảo bệnh nhân của ông được chữa trị hiệu quả nhất.
+                        </div>
+                        <div class="price">$20.03</div>
+                        <input type="time" class="count" min="1" max="17" value="1">
+                        <button class="add">Đặt Lịch</button>
+                        <button class="remove" onclick="Remove(2)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="3">
+                    <div class="img">
+                        <img src="img/bac-si-eric.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Bác sĩ Eric Balderree</div>
+                        <div class="des">
+                            Ông luôn đưa ra phác đồ điều trị cụ thể cho từng bệnh nhân 
+                        </div>
+                        <div class="price">$20.03</div>
+                        <input type="time" class="count" min="1" max="17" value="1">
+                        <button class="add">Đặt Lịch</button>
+                        <button class="remove" onclick="Remove(3)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+                
+                <div class="item" data-key="4">
+                    <div class="img">
+                        <img src="img/bac-si-tim.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Bác sĩ Timothy Gallivan</div>
+                        <div class="des">
+                            Với hơn hai mươi năm kinh nghiệm, bác sĩ Tim áp dụng phương pháp Trị liệu 
+                            thần kinh cột sống (Chiropractic) trong điều trị các bệnh lý cột sống và cơ xương khớp.
+                        </div>
+                        <div class="price">$20.03</div>
+                        <input type="time" class="count" min="1" max="17" value="1">
+                        <button class="add">Đặt Lịch</button>
+                        <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="cart">
+            <div class="name">Lịch Hẹn</div>
+            <div class="listCart">
+
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script1.js"></script>
+</body>
+</html>
